@@ -1,6 +1,6 @@
 # claude-plugin
 
-Personal Claude Code plugin.
+A collection of common, general-purpose skills intended for personal use
 
 ## Skills
 
