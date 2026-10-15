@@ -37,7 +37,11 @@ claude plugin marketplace add nicomiguelino/claude-plugin --scope project
 claude plugin install nicomiguelino@nicomiguelino --scope project
 ```
 
-Commit the resulting `.claude/settings.json`. Anyone who clones the repo and trusts the folder gets the marketplace and plugin without installing manually.
+Commit the resulting `.claude/settings.json`. After cloning and trusting the folder, collaborators only need to run:
+
+```sh
+claude plugin install nicomiguelino@nicomiguelino --scope project
+```
 
 - `--scope project`: written to `.claude/settings.json`, shared with anyone who clones the repo.
 - `--scope local`: written to `.claude/settings.local.json`, only for you in that repo.
