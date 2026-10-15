@@ -28,12 +28,18 @@ claude --plugin-dir /path/to/claude-plugin
 
 The plugin loads for that session only. Nothing is installed.
 
-## Install in a single repo
+## Install in a single repo (recommended)
 
-Run from inside the repo, after adding the marketplace:
+Run from inside the repo:
 
 ```sh
-claude plugin marketplace add nicomiguelino/claude-plugin
+claude plugin marketplace add nicomiguelino/claude-plugin --scope project
+claude plugin install nicomiguelino@nicomiguelino --scope project
+```
+
+Commit the resulting `.claude/settings.json`. After cloning and trusting the folder, collaborators only need to run:
+
+```sh
 claude plugin install nicomiguelino@nicomiguelino --scope project
 ```
 
