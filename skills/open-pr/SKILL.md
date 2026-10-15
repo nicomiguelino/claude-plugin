@@ -10,3 +10,4 @@ description: Open a pull request for the current branch.
 - Do not include a "Test plan" section.
 - Avoid em-dashes (—) in the title and body. Use a comma, colon, parentheses, or a separate sentence instead.
 - Base branch is `main`.
+- If the current branch is `main`, create a new branch first (Conventional Commits style name, e.g. `feat/short-description`), move any commits ahead of `origin/main` onto it, and reset local `main` to `origin/main`. Then push the branch and open the PR.
