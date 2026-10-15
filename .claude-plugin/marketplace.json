@@ -1,0 +1,14 @@
+{
+  "name": "nicomiguelino",
+  "owner": {
+    "name": "Nico Miguelino"
+  },
+  "description": "Personal Claude Code plugins by Nico Miguelino",
+  "plugins": [
+    {
+      "name": "nicomiguelino",
+      "source": "./",
+      "description": "A collection of common, general-purpose skills intended for personal use"
+    }
+  ]
+}
